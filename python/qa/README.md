@@ -1,5 +1,4 @@
-Matheus Lima
-Computer Science, Federal University of Sao Carlos, Brazil
+Matheus Lima (Computer Science, Federal University of Sao Carlos, Brazil)
 
 (1) To run:
 
