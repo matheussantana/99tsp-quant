@@ -1,4 +1,5 @@
 Matheus Lima
+Computer Science, Federal University of Sao Carlos, Brazil
 
 (1) To run:
 
@@ -77,28 +78,28 @@ The Quantitative Algorithm (QA) is implemented in python and the output is recor
 
 The 50 best-candidate solutions produced by QA compared to the 50 near-optimal solutions in the control (benchmark) group SA demonstrated significantly better cost with smaller total route distance in a 2D graph, the t-value is 12.27454. The p-value is < .00001. The result is significant at p < .05.
 
-Scores Calculations
+# Scores Calculations
 
-# Quantitative Algorithm
-
+## Quantitative Algorithm
+```
 N1: 50
 df1 = N - 1 = 50 - 1 = 49
 M1: 30036.7
 SS1: 19550233.73
 s21 = SS1/(N - 1) = 19550233.73/(50-1) = 398984.36
+```
 
-
-# Simulated Annealing
-
+## Simulated Annealing
+```
 N2: 50
 df2 = N - 1 = 50 - 1 = 49
 M2: 31344.41
 SS2: 8258472.24
 s22 = SS2/(N - 1) = 8258472.24/(50-1) = 168540.25
+```
 
-
-T-value Calculation
-
+## T-value Calculation
+```
 s2p = ((df1/(df1 + df2)) * s21) + ((df2/(df2 + df2)) * s22) = ((49/98) * 398984.36) + ((49/98) * 168540.25) = 283762.31
 
 s2M1 = s2p/N1 = 283762.31/50 = 5675.25
@@ -106,3 +107,4 @@ s2M2 = s2p/N2 = 283762.31/50 = 5675.25
 
 t = (M1 - M2)/√(s2M1 + s2M2) = -1307.71/√11350.49 = -12.27     
 
+```
