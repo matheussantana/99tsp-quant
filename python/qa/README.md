@@ -73,7 +73,7 @@ For i in (0..N):
         prob_sucess = 1 - decay_rate
 ```
     
-The Quantitative Algorithm (QA) is implemented in python and the output is recorded. A simulation was deployed for a city with 280 nodes with a max of 3000 iterations. The performance was compared to a benchmark heuristics defined by the Simulated Annealing algorithm (SA). The trial size is n=100 split between QA=50 and SA=50, for a two-tailed t-test for 2 independent means. The average initial solution cost is 34012.854. The average best cost for QA=30036.7 and SA=31344.41 and standard deviation QA=631.6520 and SA=410.536. 
+The Quantitative Algorithm (QA) is implemented in python and the output is recorded. A simulation was deployed for a city with 280 nodes with a max of 3000 iterations. The performance was compared to a benchmark heuristics defined by the Simulated Annealing algorithm (SA). The trial size is n=100 split between QA=50 and SA=50, for a two-tailed t-test for 2 independent means. The average initial solution cost is 34012.854. The average best cost for QA=30036.7 and SA=31344.41 and standard deviation QA=631.6520 and SA=410.536. Therefore QA results have a improvement rate of 4.353% than the benchmark SA algorithm.
 
 The 50 best-candidate solutions produced by QA compared to the 50 near-optimal solutions in the control (benchmark) group SA demonstrated significantly better cost with smaller total route distance in a 2D graph, the t-value is 12.27454. The p-value is < .00001. The result is significant at p < .05.
 
